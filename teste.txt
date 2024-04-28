@@ -1,0 +1,10 @@
+    alert(`TAREFA CADASTRADO COM SUCESSO!!!\n\n
+    Data e Hora: ${formattedDate}\n
+    Litros de gasolina gastos: ${litrosGastos.toFixed(2)}L\n
+    Custo da gasolina: R$ ${custoGasolina.toFixed(2)}\n
+    Imprevisto: ${Nomeimprevisto}\n
+    Valor do imprevisto: R$ ${totalPrecoImprevisto.toFixed(2)}\n
+    Preço da viagem: R$ ${valorCorridaNumber.toFixed(2)}\n
+    Preço da gorjeta: R$ ${totalGorjeta.toFixed(2)}\n
+    Total: R$ ${total.toFixed(2)}`);
+    };
